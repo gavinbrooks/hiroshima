@@ -1,0 +1,65 @@
+{{ define "main" }}
+  <!-- Page Hero Banner -->
+  {{ partial "page_hero.html" . }}
+
+  <!-- Two Column Section -->
+  {{ partial "components/two-column.html" . }}
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .about-card {
+      transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      background: #f8fafc !important;
+      border: 1px solid #e2e8f0;
+    }
+    
+    .about-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+    
+    .about-card h3 {
+      color: #1e40af !important;
+      border-bottom: none !important;
+      position: relative;
+      padding-bottom: 8px;
+    }
+    
+    .about-card h3::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 4rem; /* About 5 letters wide */
+      height: 2px;
+      background-color: #3b82f6;
+    }
+    
+    .about-card img {
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    
+    .about-card .prose p {
+      color: #374151;
+      line-height: 1.7;
+    }
+    
+    /* Ensure the blue top border is visible */
+    .border-blue-500 {
+      border-top: 4px solid #3b82f6 !important;
+    }
+  </style>
+{{ end }}

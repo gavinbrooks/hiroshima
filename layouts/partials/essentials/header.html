@@ -1,140 +1,203 @@
-<header
-  class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30">
-  <nav class="navbar container">
-    <!-- logo -->
-    <div class="order-0">
-      <!-- navbar brand/logo -->
-      <a class="navbar-brand block" href="{{ site.Home.RelPermalink }}">
-        {{ partial "logo" }}
-      </a>
-    </div>
-    <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" />
-    <label
-      for="nav-toggle"
-      class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
-      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
-        <title>Menu Open</title>
-        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
-      </svg>
-      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
-        <title>Menu Close</title>
-        <polygon
-          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-          transform="rotate(45 10 10)"></polygon>
-      </svg>
-    </label>
-    <!-- /navbar toggler -->
-
-    <!-- main navbar -->
-    <ul
-      id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
-      {{ $currentPage := . }}
-      {{ range site.Menus.main }}
-        {{ $menuURL := .URL | absLangURL }}
-        {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-        {{ $active := eq $menuURL $pageURL }}
-        {{ if .HasChildren }}
-          <li class="nav-item nav-dropdown group relative">
-            <span
-              class="nav-link {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
-                {{ $active := eq $childURL $pageURL }}
-                {{ if $active }}active{{ end }}
-              {{ end }} inline-flex items-center">
-              {{ .Name }}
-              <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
-                <path
-                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-              </svg>
-            </span>
-            <ul
-              class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
-              {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
-                {{ $active := eq $childURL $pageURL }}
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link {{ if $active }}
-                      active
-                    {{- end -}}"
-                    {{ if findRE `^http` .URL }}
-                      target="_blank" rel="noopener"
-                    {{ end }}
-                    href="{{- if findRE `^#` .URL -}}
-                      {{- if not $.IsHome -}}
-                        {{- site.Home.RelPermalink -}}
-                      {{- end }}
-                      {{- .URL -}}
-                    {{- else -}}
-                      {{- .URL | relLangURL -}}
-                    {{- end -}}">
-                    {{ .Name }}
-                  </a>
-                </li>
-              {{ end }}
-            </ul>
-          </li>
-        {{ else }}
-          <li class="nav-item">
-            <a
-              class="nav-link {{ if $active }}active{{- end -}}"
-              {{ if findRE `^http` .URL }}
-                target="_blank" rel="noopener"
-              {{ end }}
-              href="{{- if findRE `^#` .URL -}}
-                {{- if not $.IsHome -}}
-                  {{- site.Home.RelPermalink -}}
-                {{- end }}{{- .URL -}}
-              {{- else -}}
-                {{- .URL | relLangURL -}}
-              {{- end -}}"
-              >{{ .Name }}</a
-            >
-          </li>
-        {{ end }}
-      {{ end }}
-      {{ if site.Params.navigation_button.enable }}
-        <li class="mt-4 inline-block lg:hidden">
-          <a
-            class="btn btn-outline-primary btn-sm"
-            href="{{ site.Params.navigation_button.link | relLangURL }}">
-            {{ site.Params.navigation_button.label }}
-          </a>
-        </li>
-      {{ end }}
-    </ul>
-
-    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
-      {{ with site.Params.search }}
-        {{ if .enable }}
-          <button
-            aria-label="search"
-            class="border-border text-text-dark hover:text-primary
-            dark:border-darkmode-border mr-5 inline-block border-r pr-5
-            text-xl dark:text-white cursor-pointer dark:hover:text-darkmode-primary
-            {{ if not (or site.Params.navigation_button.enable site.Params.theme_switcher) }}
-              lg:border-r-0 lg:pr-0
-            {{ end }}"
-            data-target="search-modal">
-            <i class="fa-solid fa-search"></i>
-          </button>
-        {{ end }}
-      {{ end }}
-
-      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-light rounded") }}
-      {{ partial "components/theme-switcher" (dict "Class" "mr-5") }}
-
-
-      <!-- navigation btn -->
-      {{ if site.Params.navigation_button.enable }}
-        <a
-          href="{{ site.Params.navigation_button.link | relLangURL }}"
-          class="btn btn-outline-primary btn-sm hidden lg:inline-block">
-          {{ site.Params.navigation_button.label }}
+<header class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30 bg-white shadow-sm" style="font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <nav class="container mx-auto px-4" style="height: 56px; padding-top: 8px; padding-bottom: 8px;">
+    <div class="flex items-center justify-between h-full">
+      <!-- Logo section (left) -->
+      <div class="flex items-center space-x-3">
+        <!-- Crane image -->
+        <a href="{{ site.Home.RelPermalink }}" class="flex items-center">
+          {{ $logo := resources.Get "images/crane.png" }}
+          {{ if $logo }}
+            <img src="{{ $logo.RelPermalink }}" alt="Vocab@Hiroshima Logo" class="h-10 w-auto">
+          {{ end }}
         </a>
-      {{ end }}
+        <!-- Site title -->
+        <a href="{{ site.Home.RelPermalink }}" class="text-xl text-gray-800 hover:text-gray-600">
+          Vocab@Hiroshima
+        </a>
+      </div>
+
+      <!-- Mobile menu toggle -->
+      <input id="nav-toggle" type="checkbox" class="hidden" />
+      <label for="nav-toggle" class="lg:hidden cursor-pointer flex items-center text-gray-700">
+        <svg id="show-button" class="h-6 w-6 fill-current block" viewBox="0 0 20 20">
+          <title>Menu Open</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+        <svg id="hide-button" class="h-6 w-6 fill-current hidden" viewBox="0 0 20 20">
+          <title>Menu Close</title>
+          <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)"></polygon>
+        </svg>
+      </label>
+
+      <!-- Main navigation (right) -->
+      <ul id="nav-menu" class="navbar-nav hidden lg:flex items-center space-x-6 ml-auto">
+        {{ $currentPage := . }}
+        {{ range site.Menus.main }}
+          {{ $menuURL := .URL | absLangURL | strings.TrimRight "/" }}
+          {{ $pageURL := $currentPage.Permalink | absLangURL | strings.TrimRight "/" }}
+          {{ $active := eq $menuURL $pageURL }}
+          
+          {{ if .HasChildren }}
+            <!-- Dropdown menu -->
+            <li class="nav-item relative group">
+              <button class="nav-link flex items-center space-x-1 text-gray-700 hover:text-gray-900 {{ range .Children }}{{ $childURL := .URL | absLangURL | strings.TrimRight "/" }}{{ $pageURL := $currentPage.Permalink | absLangURL | strings.TrimRight "/" }}{{ $active := eq $childURL $pageURL }}{{ if $active }}active-nav-link{{ end }}{{ end }}">
+                <span>{{ .Name }}</span>
+                <svg class="h-4 w-4 fill-current transform group-hover:rotate-180 transition-transform duration-200" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </button>
+              <!-- Dropdown content -->
+              <ul class="nav-dropdown-list absolute top-full left-0 bg-white border border-gray-200 rounded-md shadow-lg py-2 min-w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                {{ range .Children }}
+                  {{ $childURL := .URL | absLangURL | strings.TrimRight "/" }}
+                  {{ $pageURL := $currentPage.Permalink | absLangURL | strings.TrimRight "/" }}
+                  {{ $active := eq $childURL $pageURL }}
+                  <li>
+                    <a href="{{- if findRE `^#` .URL -}}{{- if not $.IsHome -}}{{- site.Home.RelPermalink -}}{{- end }}{{- .URL -}}{{- else -}}{{- .URL | relLangURL -}}{{- end -}}" 
+                       class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 {{ if $active }}active-nav-link{{ end }}"
+                       {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>
+                      {{ .Name }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ else }}
+            <!-- Regular menu item -->
+            <li class="nav-item">
+              <a href="{{- if findRE `^#` .URL -}}{{- if not $.IsHome -}}{{- site.Home.RelPermalink -}}{{- end }}{{- .URL -}}{{- else -}}{{- .URL | relLangURL -}}{{- end -}}" 
+                 class="nav-link text-gray-700 hover:text-gray-900 {{ if $active }}active-nav-link{{ end }}"
+                 {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+
+      <!-- Mobile menu (hidden by default) -->
+      <div id="mobile-menu" class="lg:hidden absolute top-full left-0 w-full bg-white border-t border-gray-200 shadow-lg hidden">
+        <ul class="py-4 px-4 space-y-3">
+          {{ range site.Menus.main }}
+            {{ $menuURL := .URL | absLangURL | strings.TrimRight "/" }}
+            {{ $pageURL := $currentPage.Permalink | absLangURL | strings.TrimRight "/" }}
+            {{ $active := eq $menuURL $pageURL }}
+            {{ if .HasChildren }}
+              <li class="mobile-dropdown">
+                <button class="w-full text-left flex items-center justify-between py-2 text-gray-700 hover:text-gray-900">
+                  <span>{{ .Name }}</span>
+                  <svg class="h-4 w-4 fill-current transform transition-transform duration-200" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                  </svg>
+                </button>
+                <ul class="pl-4 mt-2 space-y-2 hidden">
+                  {{ range .Children }}
+                    {{ $childURL := .URL | absLangURL | strings.TrimRight "/" }}
+                    {{ $pageURL := $currentPage.Permalink | absLangURL | strings.TrimRight "/" }}
+                    {{ $active := eq $childURL $pageURL }}
+                    <li>
+                      <a href="{{- if findRE `^#` .URL -}}{{- if not $.IsHome -}}{{- site.Home.RelPermalink -}}{{- end }}{{- .URL -}}{{- else -}}{{- .URL | relLangURL -}}{{- end -}}" 
+                         class="block py-1 text-gray-600 hover:text-gray-900 {{ if $active }}active-nav-link{{ end }}"
+                         {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>
+                        {{ .Name }}
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </li>
+            {{ else }}
+              <li>
+                <a href="{{- if findRE `^#` .URL -}}{{- if not $.IsHome -}}{{- site.Home.RelPermalink -}}{{- end }}{{- .URL -}}{{- else -}}{{- .URL | relLangURL -}}{{- end -}}" 
+                   class="block py-2 text-gray-700 hover:text-gray-900 {{ if $active }}active-nav-link{{ end }}"
+                   {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}>
+                  {{ .Name }}
+                </a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
+
+<script>
+// Mobile menu toggle
+document.addEventListener('DOMContentLoaded', function() {
+  const navToggle = document.getElementById('nav-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const showButton = document.getElementById('show-button');
+  const hideButton = document.getElementById('hide-button');
+
+  navToggle.addEventListener('change', function() {
+    if (this.checked) {
+      mobileMenu.classList.remove('hidden');
+      showButton.classList.add('hidden');
+      hideButton.classList.remove('hidden');
+    } else {
+      mobileMenu.classList.add('hidden');
+      showButton.classList.remove('hidden');
+      hideButton.classList.add('hidden');
+    }
+  });
+
+  // Mobile dropdown toggles
+  const mobileDropdowns = document.querySelectorAll('.mobile-dropdown button');
+  mobileDropdowns.forEach(button => {
+    button.addEventListener('click', function() {
+      const dropdown = this.nextElementSibling;
+      const arrow = this.querySelector('svg');
+      
+      dropdown.classList.toggle('hidden');
+      arrow.classList.toggle('rotate-180');
+    });
+  });
+});
+</script>
+
+<style>
+/* Apply system font to entire navbar */
+header * {
+  font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* Navigation links styling */
+.nav-link, 
+.nav-dropdown-link,
+.navbar-nav a,
+.navbar-nav button {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* Active nav links - heavier weight and blue color */
+.active-nav-link {
+  font-weight: 600 !important;
+  color: #3b82f6 !important;
+}
+
+/* Site title "Vocab@Hiroshima" styling */
+.navbar-brand,
+header a[href="/"] {
+  display: block !important;
+  font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.32px !important;
+  line-height: 34px !important;
+  text-align: start !important;
+  white-space: nowrap !important;
+}
+
+/* Mobile menu links */
+#mobile-menu a,
+#mobile-menu button {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+
+/* Mobile menu active links */
+#mobile-menu .active-nav-link {
+  font-weight: 600 !important;
+}
+</style>

@@ -12,8 +12,9 @@
   {{ if $categories }}
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <i class="fa-regular fa-calendar mr-1"></i>
-        {{ .Date.Format "January 2, 2006" }}
+        <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+          <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+        </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
@@ -22,23 +23,6 @@
             href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
             class="ms-1"
             >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
-              {{ "," }}
-            {{ end }}
-          </a>
-        {{ end }}
-      </li>
-    </ul>
-  {{ end }}
-  {{ $tags:= .Params.tags }}
-  {{ if $tags }}
-    <ul class="mb-4">
-      <li class="inline-block">
-        <i class="fa-solid fa-tags mr-1"></i>
-        {{ range $i,$p:= $tags }}
-          <a
-            href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
-            class="ms-1"
-            >{{ . | humanize }}{{ if ne $i (sub (len $tags) 1) }}
               {{ "," }}
             {{ end }}
           </a>

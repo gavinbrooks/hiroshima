@@ -1,0 +1,53 @@
+/* Custom system font optimizations */
+:root {
+  --font-primary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --font-secondary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  
+  /* Font rendering optimizations */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Apply system fonts globally */
+body {
+  font-family: var(--font-primary);
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  line-height: 1.5;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Specific adjustments to match reference site */
+.navbar-brand {
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+
+/* Navigation links */
+.navbar-nav a {
+  font-family: var(--font-primary);
+  font-weight: 400;
+}
+
+/* Button text */
+.btn {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+/* Footer text */
+footer {
+  font-family: var(--font-primary);
+}
+
+/* Ensure consistent rendering across browsers */
+* {
+  font-variant-ligatures: none;
+}

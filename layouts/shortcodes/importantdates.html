@@ -1,0 +1,39 @@
+{{ $dates := site.Data.conference.important_dates }}
+
+<div class="dates-container">
+  <h2 class="text-3xl font-bold mb-6">{{ $dates.title }}</h2>
+  
+  <div class="space-y-4">
+    {{ range $dates.dates }}
+      <div class="date-item p-4 bg-white rounded-lg shadow-sm border-l-4 {{ if .highlight }}border-blue-500{{ else }}border-gray-300{{ end }}">
+        <div class="flex items-center">
+          <div class="mr-4 {{ .color }}">
+            <i class="fas {{ .icon }} text-2xl"></i>
+          </div>
+          <div class="flex-grow">
+            <h3 class="font-semibold text-lg {{ if .highlight }}text-blue-700{{ else }}text-gray-800{{ end }}">
+              {{ .event }}
+            </h3>
+            <p class="text-gray-600 {{ if .highlight }}font-medium{{ end }}">
+              {{ .date }}
+            </p>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .dates-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .date-item {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .date-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>

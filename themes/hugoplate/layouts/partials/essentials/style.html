@@ -9,42 +9,25 @@
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
 <link rel="dns-prefetch" href="//www.googletagmanager.com" />
 <link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
 <link rel="dns-prefetch" href="//connect.facebook.net" />
 <link rel="dns-prefetch" href="//platform.linkedin.com" />
 <link rel="dns-prefetch" href="//platform.twitter.com" />
 
-<!-- System fonts - no Google Fonts needed -->
-{{ $pf := site.Data.theme.fonts.font_family.primary }}
-{{ $sf := site.Data.theme.fonts.font_family.secondary }}
-
-<!-- Only load Google Fonts if they contain weight specifications (indicating external fonts) -->
-{{ $needsGoogleFonts := false }}
-{{ if and (findRE ":wght@" $pf) (findRE ":wght@" $sf) }}
-  {{ $needsGoogleFonts = true }}
-{{ end }}
-
-{{ if $needsGoogleFonts }}
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <script>
-    (function () {
-      const googleFont = document.createElement("link");
-      googleFont.href = "https://fonts.googleapis.com/css2?family={{$pf | safeURL}}{{with $sf}}&family={{. | safeURL}}{{end}}&display=swap";
-      googleFont.type = "text/css";
-      googleFont.rel = "stylesheet";
-      document.head.appendChild(googleFont);
-    })();
-  </script>
-{{ else }}
-  <!-- Using system fonts - no external font loading required -->
-  <style>
-    :root {
-      --font-primary: {{ $pf }}, sans-serif;
-      --font-secondary: {{ $sf }}, sans-serif;
-    }
-  </style>
-{{ end }}
+<!-- google fonts -->
+{{ $pf:= site.Data.theme.fonts.font_family.primary }}
+{{ $sf:= site.Data.theme.fonts.font_family.secondary }}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script>
+  (function () {
+    const googleFont = document.createElement("link");
+    googleFont.href = "https://fonts.googleapis.com/css2?family={{$pf | safeURL}}{{with $sf}}&family={{. | safeURL}}{{end}}&display=swap";
+    googleFont.type = "text/css";
+    googleFont.rel = "stylesheet";
+    document.head.appendChild(googleFont);
+  })();
+</script>
 
 <!-- main styles -->
 {{ $styles := slice }}

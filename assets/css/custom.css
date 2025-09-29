@@ -1,2 +1,53 @@
-/* DO NOT WRITE ANY STYLE IN THIS FILE */
-/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
+/* Add your own custom styles here */
+
+/* System font optimizations to match reference site */
+:root {
+  --font-primary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --font-secondary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  
+  /* Font rendering optimizations */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Apply system fonts globally */
+body {
+  font-family: var(--font-primary) !important;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  line-height: 1.5;
+}
+
+/* Headings - override theme defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary) !important;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Navigation and UI elements */
+.navbar-brand,
+.navbar-nav a,
+.btn,
+footer {
+  font-family: var(--font-primary) !important;
+}
+
+/* Ensure consistent rendering across browsers */
+* {
+  font-variant-ligatures: none;
+}
+
+/* Custom section padding - reduce from 112px to 82px */
+.section {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+@media (min-width: 1280px) {
+  .section {
+    padding-top: 82px !important;
+    padding-bottom: 82px !important;
+  }
+}

@@ -1,0 +1,79 @@
+conference:
+  title: "Vocab@Hiroshima 2027"
+  subtitle: "Exploring Vocabulary in Language Learning and Teaching"
+  location: "Hiroshima, Japan"
+  
+important_dates:
+  title: "Important Dates"
+  dates:
+    - event: "Call for Papers Opens"
+      date: "To be announced"
+      icon: "fa-calendar-plus"
+      color: "text-blue-500"
+      section: "call_for_papers"
+    - event: "Abstracts Due By"
+      date: "To be announced"
+      icon: "fa-file-text"
+      color: "text-yellow-500"
+      section: "call_for_papers"
+    - event: "Early Bird Registration Opens"
+      date: "To be announced"
+      icon: "fa-ticket"
+      color: "text-green-500"
+      section: "registration"
+    - event: "Presenter Registration Deadline"
+      date: "To be announced"
+      icon: "fa-clock"
+      color: "text-red-500"
+      section: "registration"
+    - event: "Regular Registration Opens"
+      date: "To be announced"
+      icon: "fa-ticket"
+      color: "text-cyan-500"
+      section: "registration"
+    - event: "Conference Dates"
+      date: "September 6th to 10th, 2027"
+      icon: "fa-users"
+      color: "text-gray-600"
+      section: "events"
+      highlight: true
+    - event: "Summer School"
+      date: "September 6th & 7th, 2027"
+      icon: "fa-graduation-cap"
+      color: "text-gray-600"
+      section: "events"
+      highlight: true
+    - event: "Main Conference"
+      date: "September 8th to 10th, 2027"
+      icon: "fa-chalkboard-user"
+      color: "text-green-500"
+      section: "events"
+      highlight: true
+
+# Legacy date fields (kept for backwards compatibility)
+dates:
+  call_for_papers_opens: "To be announced"
+  abstracts_due: "To be announced"
+  early_bird_registration: "To be announced"
+  presenter_registration_deadline: "To be announced"
+  regular_registration: "To be announced"
+  summer_school_starts: "September 6th, 2027"
+  conference_dates: "September 8th to 10th, 2027"
+
+contact:
+  email: "info@vocab-at-hiroshima.org"
+  
+organizing_committee:
+  - name: "To be announced"
+    role: "Conference Chair"
+    
+description: |
+  The 2027 Vocab@ conference will be held in Hiroshima, Japan. Vocab@Hiroshima 2027 is an international conference focusing on vocabulary acquisition, teaching, and assessment. It will bring together researchers, educators, and practitioners to share ideas and innovations in vocabulary learning.
+
+summer_school:
+  description: |
+    The summer school will provide participants with the opportunity to participate in hands-on workshops focused on vocabulary-related fields and digital tools for vocabulary research. We will provide more information closer to the date.
+
+program:
+  description: |
+    The full program will be released at a later date. It will feature promoted talks, paper presentations, and poster presentations from leading scholars in the field.

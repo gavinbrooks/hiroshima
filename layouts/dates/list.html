@@ -1,0 +1,79 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-8">
+        <!-- Page Title and Description -->
+        <div class="content text-center mb-8">
+          {{ with .Title }}
+            <h1 class="mb-4">{{ . }}</h1>
+          {{ end }}
+          {{ with .Params.description }}
+            <p class="text-lg text-gray-600 mb-8">{{ . }}</p>
+          {{ end }}
+        </div>
+
+        <!-- Important Dates from Data File -->
+        {{ with site.Data.conference.important_dates }}
+          
+          <!-- Call for Papers Section -->
+          <div class="mb-8">
+            <h2 class="mb-6 text-2xl font-semibold border-b-2 border-gray-200 pb-2">Call for Papers</h2>
+            {{ range .dates }}
+              {{ if eq .section "call_for_papers" }}
+                <div class="mb-4">
+                  <h3 class="font-semibold text-lg mb-2">{{ .event }}</h3>
+                  <p class="text-gray-700 {{ if .highlight }}font-bold text-primary{{ end }}">{{ .date }}</p>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+
+          <!-- Registration Section -->
+          <div class="mb-8">
+            <h2 class="mb-6 text-2xl font-semibold border-b-2 border-gray-200 pb-2">Registration</h2>
+            {{ range .dates }}
+              {{ if eq .section "registration" }}
+                <div class="mb-4">
+                  <h3 class="font-semibold text-lg mb-2">{{ .event }}</h3>
+                  <p class="text-gray-700 {{ if .highlight }}font-bold text-primary{{ end }}">{{ .date }}</p>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+
+          <!-- Conference Events Section -->
+          <div class="mb-8">
+            <h2 class="mb-6 text-2xl font-semibold border-b-2 border-gray-200 pb-2">Conference Events</h2>
+            {{ range .dates }}
+              {{ if eq .section "events" }}
+                <div class="mb-4">
+                  <h3 class="font-semibold text-lg mb-2 {{ if .highlight }}text-primary{{ end }}">{{ .event }}</h3>
+                  <p class="text-gray-700 {{ if .highlight }}font-bold text-primary text-xl{{ end }}">{{ .date }}</p>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+
+        {{ end }}
+
+        <!-- Additional Content from Markdown -->
+        <div class="content mt-12 p-6 bg-gray-50 rounded-lg">
+          <hr class="mb-6">
+          <p class="text-sm text-gray-600 mb-4">
+            <em>All dates will be updated as they are confirmed. Please check back regularly for the latest information or subscribe to our mailing list for updates.</em>
+          </p>
+          
+          {{ with site.Data.conference.contact.email }}
+            <p class="text-sm text-gray-600">
+              For questions about dates and deadlines, please contact us at 
+              <a href="mailto:{{ . }}" class="text-primary hover:underline">{{ . }}</a>
+            </p>
+          {{ end }}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,49 @@
+<!-- Page Hero Banner with Overlay -->
+{{ with .Params.banner }}
+  {{ if .image }}
+    <div class="container-fluid p-0" style="position: relative; overflow: hidden; height: 364px;">
+      {{ $heroImage := resources.Get .image }}
+      {{ if $heroImage }}
+        <img src="{{ $heroImage.RelPermalink }}" alt="{{ .title }}" style="position: absolute;
+                  top: 0;
+                  left: 50%;
+                  height: 100%;
+                  transform: translateX(-50%);
+                  object-fit: contain;">
+      {{ end }}
+      
+      <!-- Opacity Overlay - Lower 2/3 -->
+      <div style="position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                  height: 242px;
+                  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+                  display: flex;
+                  align-items: flex-end;
+                  padding: 0 40px 40px 40px;">
+        <div class="container">
+          <div class="row justify-center">
+            <div class="lg:col-10">
+              <h1 style="color: white; 
+                         font-size: 2.5rem; 
+                         font-weight: 600; 
+                         margin: 0;
+                         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);">
+                {{ .title }}
+              </h1>
+              {{ if .content }}
+                <p style="color: white; 
+                          font-size: 1.2rem; 
+                          margin: 8px 0 0 0;
+                          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);">
+                  {{ .content }}
+                </p>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

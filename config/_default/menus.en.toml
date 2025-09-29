@@ -1,0 +1,56 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "News"
+url = "/news"
+weight = 2
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[main]]
+name = "Submissions"
+url = "/call-for-papers"
+weight = 4
+
+[[main]]
+weight = 5
+name = "Visitor Information"
+
+
+[[main]]
+weight = 11
+parent = "Visitor Information"
+name = "About Hiroshima"
+url = "/visitor/hiroshima"
+
+[[main]]
+weight = 12
+parent = "Visitor Information"
+name = "Important Dates"
+url = "visitor/dates"
+
+
+# footer menu
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 1
+
+[[footer]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3
