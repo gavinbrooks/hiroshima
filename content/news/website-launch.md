@@ -3,7 +3,7 @@ title: "Official Website Launch"
 meta_title: "Website Launch - Vocab@Hiroshima 2027"
 description: "The official Vocab@Hiroshima 2027 website is now live!"
 date: 2025-06-14T15:30:00Z
-image: "/images/hero_alt.png"
+image: "images/hero_alt.png"
 categories: ["news", "website"]
 tags: ["website", "launch", "information"]
 draft: false

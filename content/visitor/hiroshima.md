@@ -16,14 +16,14 @@ banner:
     link: ""
 ---
 
-{{< card_left "/images/hiroshiima_cartoon.png" "Hiroshima" >}}
+{{< card_left "images/hiroshima.png" "Hiroshima" >}}
 Located in the west of Japan, Hiroshima City is a city of peace, resilience, and vibrant culture. Known worldwide for its historical significance, Hiroshima has transformed into a thriving, modern city that warmly embraces visitors from around the globe. You can visit the beautifully preserved Peace Memorial Park, the moving Hiroshima Peace Memorial Museum, and the iconic Atomic Bomb Dome — all reminders of the city's message of hope and reconciliation.
 {{< /card_left >}}
 
-{{< card_right "/images/miyajima.jpg" "Miyajima" >}}
+{{< card_right "images/miyajima.jpg" "Miyajima" >}}
 Just a short ferry ride from Hiroshima, Miyajima is a tranquil island famous for its floating torii gate and the UNESCO-listed Itsukushima Shrine. Enjoy scenic hikes, friendly deer, and local specialties like grilled oysters and momiji manju. Whether for spiritual reflection or natural beauty, Miyajima offers a peaceful escape steeped in tradition and charm.
 {{< /card_right >}}
 
-{{< card_left "/images/peace_park.jpeg" "Hiroshima Peace Park" >}}
+{{< card_left "images/peace_park.jpeg" "Hiroshima Peace Park" >}}
 Located at the heart of the city, Hiroshima Peace Memorial Park is a powerful symbol of peace and remembrance. It includes the Atomic Bomb Dome, Peace Memorial Museum, and numerous monuments dedicated to the victims of the 1945 bombing. The park invites quiet reflection and offers a moving experience that underscores Hiroshima's commitment to a peaceful future.
 {{< /card_left >}}

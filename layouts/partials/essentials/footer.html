@@ -4,7 +4,12 @@
       <!-- Logo and Brand -->
       <div class="col-12 lg:col-4 mb-6 text-center lg:text-left lg:mb-0">
         <div class="flex items-center justify-center lg:justify-start">
-          <img src="/images/crane.png" alt="Vocab@Hiroshima Logo" class="h-8 mr-3">
+          <a href="{{ site.Home.RelPermalink }}" class="flex items-center">
+            {{ $logo := resources.Get "images/crane.png" }}
+            {{ if $logo }}
+              <img src="{{ $logo.RelPermalink }}" alt="Vocab@Hiroshima Logo" class="h-8 mr-3">
+            {{ end }}
+          </a>
           <span class="text-lg font-semibold">Vocab@Hiroshima</span>
         </div>
       </div>
