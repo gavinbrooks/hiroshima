@@ -5,10 +5,11 @@
     {{ if $heroImage }}
       <img src="{{ $heroImage.RelPermalink }}" alt="Conference Banner" style="position: absolute;
                 top: 0;
-                left: 50%;
+                left: 0;
+                width: 100%;
                 height: 100%;
-                transform: translateX(-50%);
-                object-fit: contain;">
+                object-fit: cover;
+                object-position: center;">
     {{ end }}
   </div>
 
