@@ -3,7 +3,7 @@
 banner:
   title: "Vocab@Hiroshima 2027"
   content: "Exploring Vocabulary in Language Learning and Teaching"
-  image: "/images/hero_banner.png"
+  image: "images/hero_alt.png"
   button:
     enable: false
     label: ""

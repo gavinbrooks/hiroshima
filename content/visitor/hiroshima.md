@@ -9,7 +9,7 @@ draft: false
 banner:
   title: "About Hiroshima"
   content: "Things to do in and around Hiroshima"
-  image: "/images/hero_alt.png"
+  image: "images/hero_alt.png"
   button:
     enable: false
     label: ""

@@ -7,7 +7,7 @@ draft: false
 banner:
   title: "News"
   content: ""
-  image: "/images/hero_alt.png"
+  image: "images/hero_alt.png"
   button:
     enable: false
     label: ""

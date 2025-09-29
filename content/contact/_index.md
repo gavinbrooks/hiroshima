@@ -8,7 +8,7 @@ draft: false
 banner:
   title: "Contact"
   content: ""
-  image: "/images/hero_alt.png"
+  image: "images/hero_alt.png"
   button:
     enable: false
     label: ""
