@@ -7,7 +7,6 @@ image: "images/hero_alt.png"
 categories: ["news", "website"]
 tags: ["website", "launch", "information"]
 draft: false
-type: "page"
 ---
 
 We're excited to announce the launch of the official **Vocab@Hiroshima 2027** website!
