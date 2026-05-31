@@ -28,15 +28,15 @@ banner:
 
 **Address:** 1-5 Nakajima-cho, Naka-ku, Hiroshima City, Hiroshima Prefecture
 
-**Website:** [www.pcf.city.hiroshima.jp/icch/en/home.html](https://www.pcf.city.hiroshima.jp/icch/en/home.html)
+**Website:** [https://www.pcf.city.hiroshima.jp/icch/index-e.html](https://www.pcf.city.hiroshima.jp/icch/index-e.html)
 
 {{< /card_right >}}
 
-{{< card_text "About the Venue" >}}
+{{< card_left "images/venue_about.jpg" "Location" >}}
 
 The International Conference Center Hiroshima is located within Hiroshima Peace Memorial Park. Opened in 1989, it features the Phoenix Hall (1,504 seats), an International Conference Hall, and a range of conference rooms with simultaneous interpretation in up to six languages. The center is fully equipped for hybrid and online events via optical-fibre connectivity.
 
-{{< /card_text >}}
+{{< /card_left >}}
 
 
 {{< card_right "images/venue_gettingthere.png" "Getting to the Venue" >}}
