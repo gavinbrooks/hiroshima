@@ -28,5 +28,4 @@ Mount Misen, the island's highest point, looks out across the Seto Inland Sea. Y
 
 {{< card_left "images/miyajima_town.png" "Local Culture & Cuisine" >}}
 Omotesando, the island's main shopping street, is lined with craft shops and food stalls. Local specialities include freshly grilled oysters and momiji manju: maple-leaf-shaped cakes filled with sweet bean paste and other flavours. It is also a good place to pick up a souvenir.
-{{< /card_text >}}
 {{< /card_left >}}
