@@ -46,7 +46,7 @@ The summer school will provide participants with the opportunity to participate 
 
 ### Duration
 
-**Dates**: September 6th, 2027  
+**Dates**: September 13th & 14th, 2027  
 **Duration**: Full day program (details to be announced)
 
 ### Who Should Attend
