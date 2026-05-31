@@ -15,11 +15,13 @@ banner:
     link: ""
 ---
 
-### Submitting an abstract
+{{< card_text "Submitting an abstract" >}}
 
 We invite researchers, educators, and practitioners to submit proposals for presentations at Vocab@Hiroshima 2027. We welcome papers that contribute to our understanding of vocabulary acquisition, teaching methodologies, and assessment techniques.
 
-### Topics of Interest
+{{< /card_text >}}
+
+{{< card_text "Topics of Interest" >}}
 
 - Vocabulary acquisition in first and second languages
 - Innovative vocabulary teaching methods
@@ -32,10 +34,16 @@ We invite researchers, educators, and practitioners to submit proposals for pres
 - Academic vocabulary development
 - Vocabulary in specific purposes (ESP/EAP)
 
-### Submission Process
+{{< /card_text >}}
+
+{{< card_text "Submission Process" >}}
 
 The submission system will open soon. Please check back for updates or contact us for more information.
 
-### Contact
+{{< /card_text >}}
+
+{{< card_text "Contact" >}}
 
 For questions about submissions, please contact us at [info@vocab-at-hiroshima.org](mailto:info@vocab-at-hiroshima.org).
+
+{{< /card_text >}}
