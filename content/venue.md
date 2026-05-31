@@ -8,7 +8,7 @@ draft: false
 banner:
   title: "Conference Venue"
   content: "International Conference Center Hiroshima"
-  image: "images/hero_alt.png"
+  image: "images/venue_icch.jpg"
   button:
     enable: false
     label: ""
@@ -17,7 +17,7 @@ banner:
 
 ## International Conference Center Hiroshima (ICCH)
 
-![International Conference Center Hiroshima](/images/venue_icch.png)
+![International Conference Center Hiroshima](/images/venue_icch.jpg)
 
 **Address:** 1-5 Nakajima-cho, Naka-ku, Hiroshima City, Hiroshima Prefecture
 
