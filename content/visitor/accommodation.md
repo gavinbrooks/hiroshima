@@ -35,9 +35,9 @@ The following hotels are all within easy walking distance or a short tram ride f
 
 **A note on cost.** Price guides are approximate and vary by season and room type:
 
-- **Budget** — roughly ¥3,000–7,000 per night
-- **Mid-level** — roughly ¥6,000–13,000 per night
-- **Upper** — roughly ¥10,000–22,000 per night
-- **Premium** — roughly ¥15,000–35,000 per night
+- **Budget**: roughly ¥3,000–7,000 per night
+- **Mid-level**: roughly ¥6,000–13,000 per night
+- **Upper**: roughly ¥10,000–22,000 per night
+- **Premium**: roughly ¥15,000–35,000 per night
 
 September is a popular period in Hiroshima, so please book as early as possible. Booking.com, Expedia, and Jalan are all useful platforms.
