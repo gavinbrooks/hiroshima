@@ -23,14 +23,14 @@ banner:
 
 </div>
 
-{{< card_left "images/venue_map.jpg" "Location" >}}
+{{< card_right "images/venue_map.jpg" "Location" >}}
 
 
 **Address:** 1-5 Nakajima-cho, Naka-ku, Hiroshima City, Hiroshima Prefecture
 
 **Website:** [www.pcf.city.hiroshima.jp/icch/en/home.html](https://www.pcf.city.hiroshima.jp/icch/en/home.html)
 
-{{< /card_left >}}
+{{< /card_right >}}
 
 {{< card_text "About the Venue" >}}
 
@@ -38,10 +38,16 @@ The International Conference Center Hiroshima is located within Hiroshima Peace 
 
 {{< /card_text >}}
 
-### Getting to the Venue
+
+{{< card_right "images/venue_gettingthere.png" "Getting to the Venue" >}}
+
 
 **By streetcar:** Take the Hiroshima Electric Railway towards Eba or Miyajima and alight at Genbaku-Dome Mae (approx. 15 minutes from Hiroshima Station).
 
 **By bus:** Bus No. 24 (Yoshijima direction) from the south exit of Hiroshima Station; alight at Peace Memorial Park.
 
 **On foot:** Approximately 8 minutes from Genbaku-Dome Mae Station.
+
+{{< /card_right >}}
+
+
