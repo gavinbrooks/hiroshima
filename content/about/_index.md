@@ -16,7 +16,7 @@ banner:
     link: ""
 ---
 
-### Introducing Vocab@Hiroshima 2027
+{{< card_text "Introducing Vocab@Hiroshima 2027" >}}
 
 With Vocab@Hiroshima, we are delighted to welcome the Vocab@ conference back to Japan for the second time. The Vocab@Hiroshima international conference on vocabulary learning and teaching will be held in the historic city of Hiroshima in 2027, following previous successful conferences hosted in Wellington (New Zealand, 2013), Tokyo (Japan, 2016), Leuven (Belgium), and Maryland (USA, 2025).
 
@@ -26,10 +26,16 @@ Beyond the academic program, attendees will have the opportunity to explore Hiro
 
 We are excited to welcome you to Hiroshima for this landmark conference, where scholarly excellence meets cultural discovery in one of Japan's most historically significant and beautiful cities.
 
-### Conference Location
+{{< /card_text >}}
+
+{{< card_left "images/hiroshima.png" "Conference Location" >}}
 
 The conference will take place in Hiroshima, Japan, a city known for its rich history, beautiful scenery, and commitment to peace and education. More details about the venue will be announced closer to the conference date.
 
-### Contact Information
+{{< /card_left >}}
+
+{{< card_text "Contact Information" >}}
 
 For any inquiries about the conference, please contact us at [info@vocab-at-hiroshima.org](mailto:info@vocab-at-hiroshima.org).
+
+{{< /card_text >}}
