@@ -23,6 +23,27 @@ weight = 4
 
 [[main]]
 weight = 5
+name = "Program & Events"
+
+[[main]]
+weight = 21
+parent = "Program & Events"
+name = "Program"
+url = "/program"
+
+[[main]]
+weight = 22
+parent = "Program & Events"
+name = "Excursion"
+url = "/program/excursion"
+
+[[main]]
+weight = 6
+name = "Conference Venue"
+url = "/venue"
+
+[[main]]
+weight = 7
 name = "Visitor Information"
 
 
@@ -34,6 +55,12 @@ url = "/visitor/hiroshima"
 
 [[main]]
 weight = 12
+parent = "Visitor Information"
+name = "Accommodation"
+url = "/visitor/accommodation"
+
+[[main]]
+weight = 13
 parent = "Visitor Information"
 name = "Important Dates"
 url = "visitor/dates"
