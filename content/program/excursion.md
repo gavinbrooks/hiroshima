@@ -16,7 +16,7 @@ banner:
     link: ""
 ---
 
-On **Thursday, 16 September 2027**, there will be an excursion to Miyajima Island, just outside Hiroshima city (about 30–40 minutes by streetcar to Miyajimaguchi, then a 10-minute ferry). The island is best known for its floating torii gate, which stands in the sea and appears to rise from the water at high tide. We will arrange transportation to the island. During the visit, participants can:
+On **Thursday, 16 September 2027**, there will be an excursion to Miyajima Island, just outside Hiroshima city (about 30–40 minutes by streetcar to Miyajimaguchi, then a 10-minute ferry). The island is best known for its floating torii gate, which stands in the sea and appears to rise from the water at high tide. We will arrange transportation to the island. During the visit, participants will be able to experience:
 
 {{< card_left "images/miyajima_torii.jpg" "The Floating Torii Gate & Itsukushima Shrine" >}}
 The vermillion torii gate of Itsukushima Shrine stands in the sea and appears to float at high tide. The shrine itself, a UNESCO World Heritage Site, is built on stilts over the water, so its halls and walkways sit above the bay when the tide is in. It has been a place of worship for over a thousand years.
