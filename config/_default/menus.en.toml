@@ -7,6 +7,12 @@ url = "/about"
 weight = 1
 
 [[main]]
+weight = 9
+parent = "About"
+name = "About Us"
+url = "/about"
+
+[[main]]
 weight = 10
 parent = "About"
 name = "News"
