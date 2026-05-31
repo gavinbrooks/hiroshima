@@ -8,7 +8,7 @@ draft: false
 banner:
   title: "Conference Venue"
   content: "International Conference Center Hiroshima"
-  image: "images/venue_icch.jpg"
+  image: "/images/hero_alt.png"
   button:
     enable: false
     label: ""
