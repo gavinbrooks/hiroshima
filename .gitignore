@@ -15,3 +15,6 @@ jsconfig.json
 hugo_stats.json
 go.sum
 yarn.lock
+# Agent working notes (not site content)
+.agents/
+CLAUDE.md
