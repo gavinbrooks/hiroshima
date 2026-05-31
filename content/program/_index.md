@@ -3,6 +3,7 @@ title: "Program Overview"
 meta_title: "Program - Vocab@Hiroshima 2027"
 description: "Conference program featuring promoted talks, paper presentations, and poster presentations"
 type: "page"
+layout: "about-hiroshima"
 draft: false
 
 banner:
@@ -25,28 +26,25 @@ The full program will be released at a later date. It will feature promoted talk
 
 The three-day conference will include:
 
-{{< card_left}}
-### Day 1 - September 8th
+{{< card_text "Day 1 — September 8th" >}}
 - **Opening Ceremony**
 - **Keynote Presentation**
 - **Paper Sessions**
 - **Welcome Reception**
-{{< /card_left >}}
+{{< /card_text >}}
 
-{{< card_right}}
-### Day 2 - September 9th
+{{< card_text "Day 2 — September 9th" >}}
 - **Plenary Talk**
 - **Concurrent Paper Sessions**
 - **Poster Session**
 - **Workshop Sessions**
-{{< /card_right >}}
+{{< /card_text >}}
 
-{{< card_left}}
-### Day 3 - September 10th
+{{< card_text "Day 3 — September 10th" >}}
 - **Keynote Presentation**
 - **Final Paper Sessions**
 - **Closing Ceremony**
-{{< /card_left >}}
+{{< /card_text >}}
 
 ### Session Types
 
