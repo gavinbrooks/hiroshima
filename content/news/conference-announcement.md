@@ -11,7 +11,7 @@ pinned: true
 ---
 
 {{< card_left "images/crane.png" "About the Conference" >}}
-We are thrilled to announce that the Vocab@Hiroshima 2027 conference will take place from **September 8-10, 2027** in beautiful Hiroshima, Japan!
+We are thrilled to announce that the Vocab@Hiroshima 2027 conference will take place from **September 13th to 17th, 2027** in beautiful Hiroshima, Japan!
 
 Vocab@Hiroshima 2027 will bring together researchers, educators, and practitioners from around the world to explore cutting-edge developments in vocabulary acquisition, teaching, and assessment.
 {{< /card_left >}}

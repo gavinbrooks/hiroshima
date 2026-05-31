@@ -20,18 +20,18 @@ banner:
 
 The full program will be released at a later date. It will feature promoted talks, paper presentations, and poster presentations from leading scholars in the field.
 
-### Conference: **September 8-10, 2027**
+### Conference: **September 13th to 17th, 2027**
 
 The three-day conference will include:
 
-{{< card_text "Day 1 — September 8th" >}}
+{{< card_text "Day 1 — September 15th" >}}
 - **Opening Ceremony**
 - **Keynote Presentation**
 - **Paper Sessions**
 - **Welcome Reception**
 {{< /card_text >}}
 
-{{< card_text "Day 2 — September 9th" >}}
+{{< card_text "Day 2 — September 16th" >}}
 - **Plenary Talk**
 - **Concurrent Paper Sessions**
 - **Poster Session**
@@ -39,7 +39,7 @@ The three-day conference will include:
 - **Excursion and Conference Dinner**
 {{< /card_text >}}
 
-{{< card_text "Day 3 — September 10th" >}}
+{{< card_text "Day 3 — September 17th" >}}
 - **Keynote Presentation**
 - **Final Paper Sessions**
 - **Closing Ceremony**
