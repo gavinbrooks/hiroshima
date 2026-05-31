@@ -46,7 +46,7 @@ The International Conference Center Hiroshima is located within Hiroshima Peace 
 
 **By streetcar:** Take the Hiroshima Electric Railway towards Eba or Miyajima and get out at Genbaku-Dome Mae (approx. 15 minutes from Hiroshima Station).
 
-**By bus:** Bus No. 24 (Yoshijima direction) from the south exit of Hiroshima Station; alight at Peace Memorial Park.
+**By bus:** Bus No. 24 (Yoshijima direction) from the south exit of Hiroshima Station; get out at Peace Memorial Park.
 
 **On foot:** Approximately 8 minutes from Genbaku-Dome Mae Station.
 
