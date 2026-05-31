@@ -27,7 +27,7 @@ important_dates:
       color: "text-red-500"
       section: "registration"
     - event: "Regular Registration Opens"
-      date: "May 15th, 2027"
+      date: "May 16th, 2027"
       icon: "fa-ticket"
       color: "text-cyan-500"
       section: "registration"
@@ -56,7 +56,7 @@ dates:
   abstracts_due: "February 15th, 2027"
   early_bird_registration: "April 1st, 2027"
   presenter_registration_deadline: "May 15th, 2027"
-  regular_registration: "May 15th, 2027"
+  regular_registration: "May 16th, 2027"
   summer_school_starts: "September 13th, 2027"
   conference_dates: "September 13th to 17th, 2027"
 
