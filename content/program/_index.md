@@ -20,9 +20,7 @@ banner:
 
 The full program will be released at a later date. It will feature promoted talks, paper presentations, and poster presentations from leading scholars in the field.
 
-### Conference Format
-
-**September 8-10, 2027**
+### Conference: **September 8-10, 2027**
 
 The three-day conference will include:
 
@@ -38,6 +36,7 @@ The three-day conference will include:
 - **Concurrent Paper Sessions**
 - **Poster Session**
 - **Workshop Sessions**
+- **Excursion and Conference Dinner**
 {{< /card_text >}}
 
 {{< card_text "Day 3 — September 10th" >}}
@@ -46,26 +45,9 @@ The three-day conference will include:
 - **Closing Ceremony**
 {{< /card_text >}}
 
-### Session Types
-
-**Keynote Presentations**  
-Invited talks from leading researchers in vocabulary studies
-
-**Paper Presentations**  
-20-minute presentations followed by 10 minutes of discussion
-
-**Poster Sessions**  
-Interactive poster presentations with refreshments
-
-**Workshop Sessions**  
-Hands-on learning experiences and practical applications
-
 ### More Information Coming Soon
 
-- Detailed schedule
-- Speaker information
-- Session abstracts
-- Room assignments
+We will update this page with more information about the program and the schedule closer to the date of the conference. 
 
 Stay tuned for program updates as we confirm our speakers and finalize the schedule.
 
