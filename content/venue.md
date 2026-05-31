@@ -30,6 +30,8 @@ banner:
 
 **Website:** [https://www.pcf.city.hiroshima.jp/icch/index-e.html](https://www.pcf.city.hiroshima.jp/icch/index-e.html)
 
+**Virtual Tour:** You can watch a virtual tour of the venue here: [https://www.pcf.city.hiroshima.jp/icch/index-e.html](https://www.pcf.city.hiroshima.jp/icch/index-e.html)
+
 {{< /card_right >}}
 
 {{< card_left "images/venue_about.jpg" "Location" >}}
