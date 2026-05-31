@@ -34,10 +34,10 @@ banner:
 
 {{< card_text "About the Venue" >}}
 
-
 The International Conference Center Hiroshima is located within Hiroshima Peace Memorial Park. Opened in 1989, it features the Phoenix Hall (1,504 seats), an International Conference Hall, and a range of conference rooms with simultaneous interpretation in up to six languages. The center is fully equipped for hybrid and online events via optical-fibre connectivity.
 
-{{< card_text >}}
+{{< /card_text >}}
+
 ### Getting to the Venue
 
 **By streetcar:** Take the Hiroshima Electric Railway towards Eba or Miyajima and alight at Genbaku-Dome Mae (approx. 15 minutes from Hiroshima Station).
