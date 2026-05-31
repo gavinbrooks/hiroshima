@@ -36,7 +36,7 @@ Combined registration for both events
 
 ### Registration Process
 
-1. **Registration Opens**: To be announced
+1. **Registration Opens**: April 1st, 2027
 2. **Early Bird Deadline**: To be announced
 3. **Regular Registration**: To be announced
 4. **Final Deadline**: To be announced
