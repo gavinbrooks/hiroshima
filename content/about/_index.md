@@ -28,11 +28,11 @@ We are excited to welcome you to Hiroshima for this landmark conference, where s
 
 {{< /card_text >}}
 
-{{< card_left "images/hiroshima.png" "Conference Location" >}}
+{{< card_right "images/hiroshima.png" "Conference Location" >}}
 
 The conference will take place in Hiroshima, Japan, a city known for its rich history, beautiful scenery, and commitment to peace and education. More details about the venue will be announced closer to the conference date.
 
-{{< /card_left >}}
+{{< /card_right >}}
 
 {{< card_text "Contact Information" >}}
 
