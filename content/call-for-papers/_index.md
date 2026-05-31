@@ -15,7 +15,9 @@ banner:
     link: ""
 ---
 
-{{< card_text "Submitting an abstract" >}}
+## Submitting an abstract
+
+{{< card_text "How to Submit" >}}
 
 We invite researchers, educators, and practitioners to submit proposals for presentations at Vocab@Hiroshima 2027. We welcome papers that contribute to our understanding of vocabulary acquisition, teaching methodologies, and assessment techniques.
 
