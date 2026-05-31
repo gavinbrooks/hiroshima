@@ -27,3 +27,15 @@ Just a short ferry ride from Hiroshima, Miyajima is a tranquil island famous for
 {{< card_left "images/peace_park.jpeg" "Hiroshima Peace Park" >}}
 Located at the heart of the city, Hiroshima Peace Memorial Park is a powerful symbol of peace and remembrance. It includes the Atomic Bomb Dome, Peace Memorial Museum, and numerous monuments dedicated to the victims of the 1945 bombing. The park invites quiet reflection and offers a moving experience that underscores Hiroshima's commitment to a peaceful future.
 {{< /card_left >}}
+
+## General Tourism Resources
+
+For comprehensive information on tourism across Hiroshima Prefecture, the following websites are excellent starting points:
+
+| Resource | Website |
+|---|---|
+| Hiroshima Tourism Official Guide | [dive-hiroshima.com](https://dive-hiroshima.com/en/) |
+| Visit Hiroshima (Hiroshima Convention Bureau) | [visithiroshima.net](https://visithiroshima.net/) |
+| Japan National Tourism Organization: Hiroshima | [japan.travel](https://www.japan.travel/en/destinations/chugoku/hiroshima/) |
+| Hiroshima Peace Memorial Museum | [hpmmuseum.jp](https://hpmmuseum.jp/modules/en_topics/) |
+| Hiroshima Peace Memorial Park | [dive-hiroshima.com](https://dive-hiroshima.com/en/explore/2621/) |
