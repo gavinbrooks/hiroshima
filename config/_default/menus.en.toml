@@ -2,27 +2,28 @@
 
 # main menu
 [[main]]
-name = "Home"
-url = "/"
+name = "About"
+url = "/about"
 weight = 1
 
 [[main]]
+weight = 10
+parent = "About"
 name = "News"
 url = "/news"
-weight = 2
-
-[[main]]
-name = "About"
-url = "/about"
-weight = 3
 
 [[main]]
 name = "Submissions"
 url = "/call-for-papers"
-weight = 4
+weight = 2
 
 [[main]]
-weight = 5
+weight = 3
+name = "Conference Venue"
+url = "/venue"
+
+[[main]]
+weight = 4
 name = "Program & Events"
 
 [[main]]
@@ -38,12 +39,7 @@ name = "Excursion"
 url = "/program/excursion"
 
 [[main]]
-weight = 6
-name = "Conference Venue"
-url = "/venue"
-
-[[main]]
-weight = 7
+weight = 5
 name = "Visitor Information"
 
 
