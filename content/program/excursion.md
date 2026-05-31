@@ -16,16 +16,17 @@ banner:
     link: ""
 ---
 
-On **Thursday, 16 September 2027**, there will be an excursion to Miyajima Island. This unique destination lies just outside Hiroshima city — roughly 30–40 minutes by streetcar to Miyajimaguchi, followed by a short 10-minute ferry — and is famous for its picturesque floating torii gate, which appears to rise from the sea at high tide. We will provide transportation to the island. During this excursion, participants will be able to experience:
+On **Thursday, 16 September 2027**, there will be an excursion to Miyajima Island, just outside Hiroshima city (about 30–40 minutes by streetcar to Miyajimaguchi, then a 10-minute ferry). The island is best known for its floating torii gate, which stands in the sea and appears to rise from the water at high tide. We will arrange transportation to the island. During the visit, participants can:
 
 {{< card_left "images/miyajima_torii.png" "The Floating Torii Gate & Itsukushima Shrine" >}}
-The great vermillion torii gate of Itsukushima Shrine rises from the sea at high tide, one of Japan's most iconic views. The UNESCO World Heritage shrine itself is built on stilts over the water, its corridors and pavilions seeming to float above the bay. It is a place of quiet beauty and centuries of spiritual significance.
+The vermillion torii gate of Itsukushima Shrine stands in the sea and appears to float at high tide. The shrine itself, a UNESCO World Heritage Site, is built on stilts over the water, so its halls and walkways sit above the bay when the tide is in. It has been a place of worship for over a thousand years.
 {{< /card_left >}}
 
 {{< card_right "images/miyajima_misen.png" "Mount Misen & Island Nature" >}}
-Rising above the island, Mount Misen offers panoramic views across the Seto Inland Sea. Reach the summit on foot along scenic forest trails or by ropeway, passing ancient woodland and historic temple sites along the way. Wild deer roam freely across the island, adding to its peaceful, unhurried charm.
+Mount Misen, the island's highest point, looks out across the Seto Inland Sea. You can reach the summit on foot through the forest or take the ropeway part of the way up. The trails pass old woodland and a few small temples. Wild deer wander freely through the town and the hills.
 {{< /card_right >}}
 
 {{< card_left "images/miyajima_town.png" "Local Culture & Cuisine" >}}
-Wander the lively Omotesando shopping street, where local artisans and food stalls serve island specialities. Sample freshly grilled oysters, a Miyajima delicacy, and the much-loved momiji manju — maple-leaf-shaped cakes filled with sweet bean paste and other flavours. It is the perfect place to find a souvenir and soak up the island atmosphere.
+Omotesando, the island's main shopping street, is lined with craft shops and food stalls. Local specialities include freshly grilled oysters and momiji manju: maple-leaf-shaped cakes filled with sweet bean paste and other flavours. It is also a good place to pick up a souvenir.
+{{< /card_text >}}
 {{< /card_left >}}
