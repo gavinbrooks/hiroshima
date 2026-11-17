@@ -115,7 +115,7 @@ All proposals receive double-blind peer review. Please remove anything that iden
 
 {{< card_text "Symposia" >}}
 
-A symposium allows extended discussion of a single topic through a set of presentations that are clearly linked to the theme and to each other. Each symposium runs for **90 minutes**. Space for symposia is limited, so organizers should think carefully about how well the session hangs together and what it will offer as a whole.
+A symposium allows extended discussion of a single topic through a set of presentations that are clearly linked to the theme and to each other. Each symposium runs for **90 minutes**. Space for symposia is limited, so organizers should think carefully about how well the session fits together and what it will offer as a whole that a collection of individual papers would not.
 
 {{< cfp_item "Format" >}}
 The organizer decides the number of presenters, the length of each presentation, and the structure of the session, including whether to have one or more discussants. Please leave generous time throughout for audience discussion.
