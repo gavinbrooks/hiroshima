@@ -28,7 +28,7 @@ banner:
 
 {{< card_text "We are now accepting proposals" >}}
 
-We invite you to submit proposals for Vocab@Hiroshima 2027, to be held in Hiroshima, Japan, from **September 13th to 17th, 2027** (Summer School September 13th & 14th; main conference September 15th to 17th). We welcome proposals for **papers** and **posters** on any topic related to vocabulary research. Details are below.
+We invite you to submit proposals for Vocab@Hiroshima 2027, to be held in Hiroshima, Japan, from **September 13th to 17th, 2027** (Summer School September 13th & 14th; main conference September 15th to 17th). We welcome proposals for **papers**, **posters**, and **symposia** on any topic related to vocabulary research. Details are below.
 
 {{< cfp_button "Submit here" "https://submit.vocab-at-hiroshima.org/" >}}
 
@@ -85,6 +85,8 @@ Approaches, procedures, and tools for collecting and analyzing data on vocabular
 **Papers** — 30-minute slots: 20 minutes for the presentation and 10 minutes for discussion.
 
 **Posters** — interactive sessions, well suited to presenting information visually and to in-depth discussion with other researchers.
+
+**Symposia** — 90-minute sessions of linked presentations on one theme, with plenty of time for discussion. See [Symposia](#symposia) below.
 {{< /cfp_item >}}
 
 {{< cfp_item "Number of submissions" >}}
@@ -109,12 +111,32 @@ All proposals receive double-blind peer review. Please remove anything that iden
 
 {{< /card_text >}}
 
+<span id="symposia"></span>
+
+{{< card_text "Symposia" >}}
+
+A symposium allows extended discussion of a single topic through a set of presentations that are clearly linked to the theme and to each other. Each symposium runs for **90 minutes**. Space for symposia is limited, so organizers should think carefully about how well the session hangs together and what it will offer as a whole.
+
+{{< cfp_item "Format" >}}
+The organizer decides the number of presenters, the length of each presentation, and the structure of the session, including whether to have one or more discussants. Please leave generous time throughout for audience discussion.
+{{< /cfp_item >}}
+
+{{< cfp_item "The proposal" >}}
+Describe the content to be discussed and how the individual presentations fit together, and explain how the 90 minutes will be divided between presentations, discussant remarks (optional), and audience discussion. To keep the review anonymous, do not name the presenters.
+{{< /cfp_item >}}
+
+{{< cfp_item "Organizer's role" >}}
+The organizer submits the proposal on behalf of all participants, acts as the contact between the symposium and the program committee, and handles all communication among presenters and discussants.
+{{< /cfp_item >}}
+
+{{< /card_text >}}
+
 {{< card_text "How to Submit" >}}
 
 1. **Prepare your proposal first.** Write your title, abstract, and any references in a text editor so you can check the word counts and keep a copy.
 2. **Open the submission site** at [submit.vocab-at-hiroshima.org](https://submit.vocab-at-hiroshima.org/).
 3. **Enter the author details** — name, affiliation, and email for each author, with the presenting author marked.
-4. **Choose your format** (paper or poster) and the topic that best fits your proposal.
+4. **Choose your format** (paper, poster, or symposium) and the topic that best fits your proposal.
 5. **Paste in your title, abstract, and references**, then submit before **23:59 JST on February 15th, 2027**. Please do not leave it until the last hour.
 
 If you need to make changes after submitting, please edit your original proposal rather than submitting a new one. If you are not sure how, please [contact us](mailto:info@vocab-at-hiroshima.org).
