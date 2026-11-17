@@ -104,7 +104,7 @@ All proposals receive double-blind peer review. Please remove anything that iden
 {{< cfp_item "Abstract format" >}}
 **Title:** maximum 15 words (capitalize only the first word and proper nouns).
 
-**Abstract:** maximum 300 words, including in-text citations.
+**Abstract:** maximum 300 words, including in-text citations (500 words for symposia).
 
 **References:** entered in a separate box, and only for works cited in the abstract. They do not count toward the 300 words.
 {{< /cfp_item >}}
@@ -122,11 +122,11 @@ The organizer decides the total length of the symposium (90 minutes to three hou
 {{< /cfp_item >}}
 
 {{< cfp_item "The proposal" >}}
-Describe the content to be discussed and how the individual presentations fit together, and state the total length you are requesting and explain how the time will be divided between presentations, discussant remarks (optional), and audience discussion. To keep the review anonymous, do not name the presenters.
+The organizer submits one proposal for the whole symposium: a title (up to 15 words) and an abstract (up to **500 words**) covering the theme, how the presentations fit together, the total length you are requesting, and how the time will be divided between presentations, discussant remarks (optional), and audience discussion. The presenters and the titles of their presentations are entered in separate boxes on the symposium form. To keep the review anonymous, do not name the presenters in the abstract.
 {{< /cfp_item >}}
 
 {{< cfp_item "Organizer's role" >}}
-The organizer submits the proposal on behalf of all participants, acts as the contact between the symposium and the program committee, and handles all communication among presenters and discussants.
+The organizer submits on behalf of everyone involved and is responsible for collecting each presenter's name, affiliation, and presentation title. The organizer is also the contact between the symposium and the program committee, and handles all communication among presenters and discussants.
 {{< /cfp_item >}}
 
 {{< /card_text >}}
