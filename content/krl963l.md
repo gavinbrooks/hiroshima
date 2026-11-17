@@ -86,7 +86,7 @@ Approaches, procedures, and tools for collecting and analyzing data on vocabular
 
 **Posters** — interactive sessions, well suited to presenting information visually and to in-depth discussion with other researchers.
 
-**Symposia** — 90-minute sessions of linked presentations on one theme, with plenty of time for discussion. See [Symposia](#symposia) below.
+**Symposia** — sessions of 90 minutes to three hours of linked presentations on one theme, with plenty of time for discussion. See [Symposia](#symposia) below.
 {{< /cfp_item >}}
 
 {{< cfp_item "Number of submissions" >}}
@@ -115,14 +115,14 @@ All proposals receive double-blind peer review. Please remove anything that iden
 
 {{< card_text "Symposia" >}}
 
-A symposium allows extended discussion of a single topic through a set of presentations that are clearly linked to the theme and to each other. Each symposium runs for **90 minutes**. Space for symposia is limited, so organizers should think carefully about how well the session fits together and what it will offer as a whole that a collection of individual papers would not.
+A symposium allows extended discussion of a single topic through a set of presentations that are clearly linked to the theme and to each other. Each symposium runs for **between 90 minutes and three hours**. Space for symposia is limited, so organizers should think carefully about how well the session fits together and what it will offer as a whole that a collection of individual papers would not.
 
 {{< cfp_item "Format" >}}
-The organizer decides the number of presenters, the length of each presentation, and the structure of the session, including whether to have one or more discussants. Please leave generous time throughout for audience discussion.
+The organizer decides the total length of the symposium (90 minutes to three hours), the number of presenters, the length of each presentation, and the structure of the session, including whether to have one or more discussants. Please leave generous time throughout for audience discussion.
 {{< /cfp_item >}}
 
 {{< cfp_item "The proposal" >}}
-Describe the content to be discussed and how the individual presentations fit together, and explain how the 90 minutes will be divided between presentations, discussant remarks (optional), and audience discussion. To keep the review anonymous, do not name the presenters.
+Describe the content to be discussed and how the individual presentations fit together, and state the total length you are requesting and explain how the time will be divided between presentations, discussant remarks (optional), and audience discussion. To keep the review anonymous, do not name the presenters.
 {{< /cfp_item >}}
 
 {{< cfp_item "Organizer's role" >}}
