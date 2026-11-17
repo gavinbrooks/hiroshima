@@ -1,0 +1,6 @@
+# Keep the draft call-for-proposals page out of search engines.
+# Read by Cloudflare Pages and Netlify (ignored by hosts that don't support it).
+/krl963l/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+/krl963l
+  X-Robots-Tag: noindex, nofollow, noarchive

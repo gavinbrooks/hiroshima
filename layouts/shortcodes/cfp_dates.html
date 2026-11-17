@@ -1,0 +1,17 @@
+{{/* Compact key-dates table for the CFP page.
+     Usage: {{< cfp_dates >}}Label | Date
+     Label | Date{{< /cfp_dates >}}  (one "label | date" per line)
+     Output is kept on one line so the surrounding markdownify can't turn it into a code block. */ -}}
+<div class="cfp-dates"><table>
+{{- range split (trim .Inner "\n") "\n" -}}
+{{- $p := split . "|" -}}
+{{- if eq (len $p) 2 -}}<tr><th>{{ index $p 0 | strings.TrimSpace }}</th><td>{{ index $p 1 | strings.TrimSpace }}</td></tr>{{- end -}}
+{{- end -}}
+</table></div>
+<style>
+.cfp-dates { display: flex; justify-content: center; margin: 8px 0 24px; }
+.cfp-dates table { border-collapse: collapse; margin: 0; width: auto; }
+.cfp-dates th, .cfp-dates td { padding: 8px 16px; border: 0; border-bottom: 1px solid #e5e7eb; background: transparent; }
+.cfp-dates th { text-align: right; font-weight: 600; color: #374151; }
+.cfp-dates td { text-align: left; color: #1d4ed8; font-weight: 500; }
+</style>

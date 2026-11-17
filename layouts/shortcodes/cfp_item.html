@@ -1,0 +1,17 @@
+{{/* Label / description row, like the Vocab@Maryland CFP grid.
+     Usage: {{< cfp_item "Label" >}}markdown{{< /cfp_item >}} */}}
+<div class="cfp-item">
+  <div class="cfp-item-label">{{ .Get 0 }}</div>
+  <div class="cfp-item-body">{{ .Inner | markdownify }}</div>
+</div>
+{{ if not (.Page.Scratch.Get "cfp_item_css") }}
+  {{ .Page.Scratch.Set "cfp_item_css" true }}
+  <style>
+    .cfp-item { display: grid; grid-template-columns: 1fr; gap: 4px 24px; padding: 14px 0; border-bottom: 1px solid #e5e7eb; }
+    .cfp-item:last-child { border-bottom: 0; }
+    .cfp-item-label { font-weight: 600; color: #1d4ed8; }
+    .cfp-item-body > :first-child { margin-top: 0; }
+    .cfp-item-body > :last-child { margin-bottom: 0; }
+    @media (min-width: 768px) { .cfp-item { grid-template-columns: 220px 1fr; } }
+  </style>
+{{ end }}
