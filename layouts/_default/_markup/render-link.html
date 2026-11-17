@@ -1,0 +1,9 @@
+{{- /* Same as the gethugothemes render-link module, but emitted on one line.
+       The module's version spreads the <a> tag over several lines, which breaks
+       when a shortcode markdownifies its inner content (e.g. cfp_item). */ -}}
+{{- $class := "" -}}
+{{- if in .Destination "?class=" -}}
+{{- $class = replace (replace (string (index (findRE "class=([^&#]*)" .Destination) 0)) "class=" "") "+" " " -}}
+{{- end -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}{{ with $class }} class="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /* This comment removes trailing newlines. */ -}}
