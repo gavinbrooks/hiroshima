@@ -117,7 +117,7 @@ All proposals receive double-blind peer review. Please remove anything that iden
 4. **Choose your format** (paper or poster) and the topic that best fits your proposal.
 5. **Paste in your title, abstract, and references**, then submit before **23:59 JST on February 15th, 2027**. Please do not leave it until the last hour.
 
-If you need to change something after submitting, please contact us — do not submit a second copy.
+If you need to make changes after submitting, please edit your original proposal rather than submitting a new one. If you are not sure how, please [contact us](mailto:info@vocab-at-hiroshima.org).
 
 {{< /card_text >}}
 
