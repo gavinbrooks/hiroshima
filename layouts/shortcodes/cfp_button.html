@@ -1,2 +1,6 @@
-{{/* Centred call-to-action button. Usage: {{< cfp_button "Label" "https://..." >}} */ -}}
-<p class="not-prose" style="text-align: center; margin: 24px 0 8px;"><a class="btn btn-primary" href="{{ .Get 1 }}" style="font-size: 1.1rem; padding: 12px 32px; color: #fff; text-decoration: none;">{{ .Get 0 }} <i class="fa fa-arrow-right pl-2"></i></a></p>
+{{/* Centred call-to-action button in the site's blue card style. Usage: {{< cfp_button "Label" "https://..." >}} */ -}}
+<p class="not-prose" style="text-align: center; margin: 24px 0 8px;"><a class="cfp-button" href="{{ .Get 1 }}">{{ .Get 0 }} <i class="fa fa-arrow-right" style="margin-left: 8px;"></i></a></p>
+<style>
+.cfp-button { display: inline-flex; align-items: center; background: #2563eb; color: #fff !important; font-weight: 600; font-size: 1.1rem; padding: 12px 32px; border-radius: 0.5rem; text-decoration: none !important; box-shadow: 0 1px 2px rgba(0,0,0,0.08); transition: background 0.15s, transform 0.15s, box-shadow 0.15s; }
+.cfp-button:hover { background: #1d4ed8; transform: translateY(-1px); box-shadow: 0 4px 10px rgba(37,99,235,0.25); }
+</style>
