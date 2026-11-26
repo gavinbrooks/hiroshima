@@ -30,7 +30,9 @@ banner:
 
 We invite you to submit proposals for Vocab@Hiroshima 2027, to be held in Hiroshima, Japan, from **September 13th to 17th, 2027** (Summer School September 13th & 14th; main conference September 15th to 17th). We welcome proposals for **papers**, **posters**, and **symposia** on any topic related to vocabulary research. Details are below.
 
-{{< cfp_button "Submit here" "https://submit.vocab-at-hiroshima.org/" >}}
+Papers and posters use one form and symposia use another, because the rules are different. Please choose the one that fits your proposal.
+
+{{< cfp_buttons "Submit a paper or poster" "https://submit.vocab-at-hiroshima.org/submit" "Submit a symposium" "https://submit.vocab-at-hiroshima.org/symposia" >}}
 
 {{< /card_text >}}
 
@@ -129,14 +131,16 @@ The organizer submits one proposal for the whole symposium: a title (up to 15 wo
 The organizer submits on behalf of everyone involved and is responsible for collecting each presenter's name, affiliation, and presentation title. The organizer is also the contact between the symposium and the program committee, and handles all communication among presenters and discussants.
 {{< /cfp_item >}}
 
+{{< cfp_button "Submit a symposium" "https://submit.vocab-at-hiroshima.org/symposia" >}}
+
 {{< /card_text >}}
 
 {{< card_text "How to Submit" >}}
 
 1. **Prepare your proposal first.** Write your title, abstract, and any references in a text editor so you can check the word counts and keep a copy.
-2. **Open the submission site** at [submit.vocab-at-hiroshima.org](https://submit.vocab-at-hiroshima.org/).
-3. **Enter the author details** — name, affiliation, and email for each author, with the presenting author marked.
-4. **Choose your format** (paper, poster, or symposium) and the topic that best fits your proposal.
+2. **Open the form for your format** — the [paper and poster form](https://submit.vocab-at-hiroshima.org/submit) or the [symposium form](https://submit.vocab-at-hiroshima.org/symposia).
+3. **Enter the author details** — name, affiliation, and email for each author, with the presenting author marked. For a symposium, enter the organizer's details and each presenter's name, affiliation, and presentation title.
+4. **Choose your format** — paper or poster on the paper and poster form; on the symposium form, the length you are requesting.
 5. **Paste in your title, abstract, and references**, then submit before **23:59 JST on February 15th, 2027**. Please do not leave it until the last hour.
 
 If you need to make changes after submitting, please edit your original proposal rather than submitting a new one. If you are not sure how, please [contact us](mailto:info@vocab-at-hiroshima.org).
