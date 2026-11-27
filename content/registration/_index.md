@@ -3,7 +3,7 @@ title: "Registration"
 meta_title: "Registration - Vocab@Hiroshima 2027"
 description: "Register for Vocab@Hiroshima 2027 conference - registration information and pricing"
 type: "page"
-draft: false
+draft: true
 
 banner:
   title: "Registration"

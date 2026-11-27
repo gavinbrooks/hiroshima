@@ -1,6 +1,6 @@
 ---
 title: "Vocab@Hiroshima 2027 Conference Announcement"
-meta_title: "Conference Announcement"
+meta_title: "Conference Announcement - Vocab@Hiroshima 2027"
 description: "We're excited to announce the Vocab@Hiroshima 2027 conference!"
 date: 2025-06-14T15:30:00Z
 image: "images/crane.png"

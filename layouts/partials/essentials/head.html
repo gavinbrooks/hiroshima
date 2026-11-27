@@ -42,7 +42,7 @@
 
 
 <!-- search index -->
-{{ partial "search-index.html" . }}
+{{ if site.Params.search.enable }}{{ partial "search-index.html" . }}{{ end }}
 
 
 <!-- matomo analytics -->

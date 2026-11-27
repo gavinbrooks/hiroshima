@@ -6,7 +6,7 @@ meta_title: "Elements - Vocab@Hiroshima 2027"
 description: "Design elements and components"
 type: "page"
 # save as draft
-draft: false
+draft: true
 
 banner:
   title: "Elements"

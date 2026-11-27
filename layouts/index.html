@@ -3,6 +3,7 @@
   <div class="container-fluid p-0" style="position: relative; overflow: hidden; height: 364px;">
     {{ $heroImage := resources.Get "images/vocabat_skyline.png" }}
     {{ if $heroImage }}
+      {{ $heroImage = $heroImage.Process "webp q80" }}
       <img src="{{ $heroImage.RelPermalink }}" alt="Conference Banner" style="position: absolute;
                 top: 0;
                 left: 0;

@@ -3,7 +3,7 @@ title: "Contact"
 meta_title: "Contact - Vocab@Hiroshima 2027"
 description: "Get in touch with the Vocab@Hiroshima 2027 conference organizers"
 type: "page"
-draft: false
+draft: true
 
 banner:
   title: "Contact"

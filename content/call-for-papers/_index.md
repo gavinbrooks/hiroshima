@@ -15,7 +15,7 @@ banner:
     link: ""
 ---
 
-## Submitting an abstract
+## Submitting an Abstract
 
 {{< card_text "How to Submit" >}}
 

@@ -2,12 +2,13 @@
   <nav class="container mx-auto px-4" style="height: 56px; padding-top: 8px; padding-bottom: 8px;">
     <div class="flex items-center justify-between h-full">
       <!-- Logo section (left) -->
-      <div class="flex items-center space-x-3">
+      <div class="flex items-center space-x-3 flex-shrink-0">
         <!-- Crane image -->
         <a href="{{ site.Home.RelPermalink }}" class="flex items-center">
           {{ $logo := resources.Get "images/crane.png" }}
           {{ if $logo }}
-            <img src="{{ $logo.RelPermalink }}" alt="Vocab@Hiroshima Logo" class="h-10 w-auto">
+            {{ $logo = $logo.Resize "x80 png" }}
+            <img src="{{ $logo.RelPermalink }}" alt="Vocab@Hiroshima Logo" width="{{ div $logo.Width 2 }}" height="40" class="h-10 w-auto flex-shrink-0">
           {{ end }}
         </a>
         <!-- Site title -->
@@ -187,6 +188,11 @@ header a[href="/"] {
   line-height: 34px !important;
   text-align: start !important;
   white-space: nowrap !important;
+}
+
+/* Mobile: the theme shows #nav-menu (desktop list) when the toggle is checked; only #mobile-menu should open */
+@media (max-width: 1023.98px) {
+  input#nav-toggle:checked ~ #nav-menu { display: none !important; }
 }
 
 /* Mobile menu links */

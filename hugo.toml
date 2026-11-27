@@ -5,6 +5,8 @@ baseURL = "https://vocab-at-hiroshima.org/"
 title = "Vocab@Hiroshima 2027"
 # Your theme name
 theme = "hugoplate"
+# No category/tag pages (template leftovers)
+disableKinds = ["taxonomy", "term"]
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Asia/Tokyo"
 # post excerpt
@@ -59,7 +61,7 @@ target = 'assets/notwatching/hugo_stats.json'
 
 ############################# Outputs ############################
 [outputs]
-home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
+home = ["HTML", "RSS", "WebAppManifest"]
 
 ############################# Imaging ############################
 [imaging]
@@ -133,9 +135,6 @@ link = "plugins/font-awesome/v6/icons.css"
 lazy = true
 
 # JS Plugins
-[[params.plugins.js]]
-link = "js/search.js"
-lazy = false
 [[params.plugins.js]]
 link = "plugins/swiper/swiper-bundle.js"
 lazy = false

@@ -7,7 +7,8 @@
           <a href="{{ site.Home.RelPermalink }}" class="flex items-center">
             {{ $logo := resources.Get "images/crane.png" }}
             {{ if $logo }}
-              <img src="{{ $logo.RelPermalink }}" alt="Vocab@Hiroshima Logo" class="h-8 mr-3">
+              {{ $logo = $logo.Resize "x64 png" }}
+              <img src="{{ $logo.RelPermalink }}" alt="Vocab@Hiroshima Logo" width="{{ div $logo.Width 2 }}" height="32" class="h-8 mr-3">
             {{ end }}
           </a>
           <span class="text-lg font-semibold">Vocab@Hiroshima</span>
@@ -27,10 +28,10 @@
       <!-- Social Icons -->
       <div class="col-12 lg:col-4 mb-6 text-center lg:text-right lg:mb-0">
         <div class="flex justify-center lg:justify-end space-x-4">
-          <a href="https://x.com/vocabhiroshima" target="_blank" rel="noopener" class="text-gray-600 hover:text-primary">
+          <a href="https://x.com/vocabhiroshima" target="_blank" rel="noopener" aria-label="Vocab@Hiroshima on X" class="text-gray-600 hover:text-primary">
             <i class="fab fa-x-twitter text-xl"></i>
           </a>
-          <a href="https://www.facebook.com/share/1NUko6LGzr/?mibextid=wwXIfr" target="_blank" rel="noopener" class="text-gray-600 hover:text-primary">
+          <a href="https://www.facebook.com/profile.php?id=61577700084298" target="_blank" rel="noopener" aria-label="Vocab@Hiroshima on Facebook" class="text-gray-600 hover:text-primary">
             <i class="fab fa-facebook text-xl"></i>
           </a>
         </div>

@@ -3,7 +3,7 @@ title: "Important Dates"
 meta_title: "Important Dates - Vocab@Hiroshima 2027"
 description: "Key dates and deadlines for Vocab@Hiroshima 2027 conference"
 type: "page"
-draft: false
+draft: true
 
 banner:
   title: "Important Dates"

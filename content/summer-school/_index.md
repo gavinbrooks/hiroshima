@@ -3,7 +3,7 @@ title: "Summer School"
 meta_title: "Summer School - Vocab@Hiroshima 2027"
 description: "Join our summer school program focusing on vocabulary-related fields and digital tools for vocabulary research"
 type: "page"
-draft: false
+draft: true
 
 banner:
   title: "Summer School"

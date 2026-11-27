@@ -3,30 +3,30 @@
 # main menu
 [[main]]
 name = "About"
-url = "/about"
+url = "/about/"
 weight = 1
 
 [[main]]
 weight = 9
 parent = "About"
 name = "About Us"
-url = "/about"
+url = "/about/"
 
 [[main]]
 weight = 10
 parent = "About"
 name = "News"
-url = "/news"
+url = "/news/"
 
 [[main]]
 name = "Submissions"
-url = "/call-for-papers"
+url = "/call-for-papers/"
 weight = 2
 
 [[main]]
 weight = 3
 name = "Conference Venue"
-url = "/venue"
+url = "/venue/"
 
 [[main]]
 weight = 4
@@ -36,13 +36,13 @@ name = "Program & Events"
 weight = 21
 parent = "Program & Events"
 name = "Program"
-url = "/program"
+url = "/program/"
 
 [[main]]
 weight = 22
 parent = "Program & Events"
 name = "Excursion"
-url = "/program/excursion"
+url = "/program/excursion/"
 
 [[main]]
 weight = 5
@@ -53,33 +53,33 @@ name = "Visitor Information"
 weight = 11
 parent = "Visitor Information"
 name = "About Hiroshima"
-url = "/visitor/hiroshima"
+url = "/visitor/hiroshima/"
 
 [[main]]
 weight = 12
 parent = "Visitor Information"
 name = "Accommodation"
-url = "/visitor/accommodation"
+url = "/visitor/accommodation/"
 
 [[main]]
 weight = 13
 parent = "Visitor Information"
 name = "Important Dates"
-url = "visitor/dates"
+url = "/visitor/dates/"
 
 
 # footer menu
 [[footer]]
 name = "Contact"
-url = "/contact"
+url = "/contact/"
 weight = 1
 
 [[footer]]
 name = "About"
-url = "/about"
+url = "/about/"
 weight = 2
 
 [[footer]]
 name = "Privacy Policy"
-url = "/privacy-policy"
+url = "/privacy-policy/"
 weight = 3

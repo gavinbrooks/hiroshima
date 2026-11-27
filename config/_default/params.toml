@@ -44,9 +44,9 @@ link = "contact"
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["news"]
 show_image = true
 show_description = true
 show_tags = true
@@ -65,6 +65,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 keywords = ["Vocabulary", "Language Learning", "Conference", "Hiroshima", "Academic", "Research"]
 description = "International conference on vocabulary acquisition, teaching, and assessment in Hiroshima, Japan"
 author = "Vocab@Hiroshima Conference"
+twitter = "vocabhiroshima"
 image = "images/og-image.png"
 
 

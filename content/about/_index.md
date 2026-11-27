@@ -1,8 +1,7 @@
 ---
 title: "About Vocab@Hiroshima 2027"
-meta_title: "About the Conference"
+meta_title: "About the Conference - Vocab@Hiroshima 2027"
 description: "Learn about Vocab@Hiroshima 2027 - an international conference on vocabulary acquisition, teaching, and assessment in Hiroshima, Japan"
-image: "/images/about.png"
 type: "page"
 draft: false
 
@@ -24,15 +23,15 @@ With Vocab@Hiroshima, we are delighted to welcome the Vocab@ conference back to 
 
 We hope that the Vocab@Hiroshima conference will continue the tradition established by previous conferences in the series, gathering the world's leading vocabulary researchers to share the latest findings and discuss emerging trends in vocabulary pedagogy. Participants can expect presentations on innovative teaching methodologies, technological applications in vocabulary instruction, corpus-based research, and cross-linguistic vocabulary acquisition studies.
 
-Beyond the academic program, attendees will have the opportunity to explore Hiroshima's stunning landmarks, including the iconic Peace Memorial Park, Hiroshima Castle, and the nearby UNESCO World Heritage site of Itsukushima Shrine on Miyajima Island. The conference will be hosted at Hiroshima University's downtown campus. The conference venue and surrounding area offer easy access to authentic Japanese cuisine, traditional gardens, and cultural experiences that will enrich your visit to Japan.
+Beyond the academic program, attendees will have the opportunity to explore Hiroshima's stunning landmarks, including the iconic Peace Memorial Park, Hiroshima Castle, and the nearby UNESCO World Heritage site of Itsukushima Shrine on Miyajima Island. The conference will be held at the International Conference Center Hiroshima, inside the Peace Memorial Park. The conference venue and surrounding area offer easy access to authentic Japanese cuisine, traditional gardens, and cultural experiences that will enrich your visit to Japan.
 
 We are excited to welcome you to Hiroshima for this landmark conference, where scholarly excellence meets cultural discovery in one of Japan's most historically significant and beautiful cities.
 
 {{< /card_right >}}
 
-{{< card_right "images/hiroshima.png" "Conference Location" >}}
+{{< card_right "images/hiroshima.jpg" "Conference Location" >}}
 
-The conference will take place in Hiroshima, Japan, a city known for its rich history, beautiful scenery, and commitment to peace and education. More details about the venue will be announced closer to the conference date.
+The conference will take place at the International Conference Center Hiroshima (ICCH), inside Hiroshima Peace Memorial Park. See the [Conference Venue](/venue/) page for the address and directions.
 
 {{< /card_right >}}
 

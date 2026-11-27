@@ -1,7 +1,7 @@
 ---
 title: "About Hiroshima"
-meta_title: "For the visitors"
-description: "Some facts about Hiroshima"
+meta_title: "About Hiroshima - Vocab@Hiroshima 2027"
+description: "Things to see and do in and around Hiroshima"
 type: "page"
 layout: "about-hiroshima"
 draft: false
@@ -16,7 +16,7 @@ banner:
     link: ""
 ---
 
-{{< card_left "images/hiroshima.png" "Hiroshima" >}}
+{{< card_left "images/hiroshima.jpg" "Hiroshima" >}}
 Located in the west of Japan, Hiroshima City is a city of peace, resilience, and vibrant culture. Known worldwide for its historical significance, Hiroshima has transformed into a thriving, modern city that warmly embraces visitors from around the globe. You can visit the beautifully preserved Peace Memorial Park, the moving Hiroshima Peace Memorial Museum, and the iconic Atomic Bomb Dome — all reminders of the city's message of hope and reconciliation.
 {{< /card_left >}}
 
@@ -35,7 +35,6 @@ For comprehensive information on tourism across Hiroshima Prefecture, the follow
 | Resource | Website |
 |---|---|
 | Hiroshima Tourism Official Guide | [dive-hiroshima.com](https://dive-hiroshima.com/en/) |
-| Visit Hiroshima (Hiroshima Convention Bureau) | [visithiroshima.net](https://visithiroshima.net/) |
 | Japan National Tourism Organization: Hiroshima | [japan.travel](https://www.japan.travel/en/destinations/chugoku/hiroshima/) |
-| Hiroshima Peace Memorial Museum | [hpmmuseum.jp](https://hpmmuseum.jp/modules/en_topics/) |
+| Hiroshima Peace Memorial Museum | [hpmmuseum.jp](https://hpmmuseum.jp/?lang=eng) |
 | Hiroshima Peace Memorial Park | [dive-hiroshima.com](https://dive-hiroshima.com/en/explore/2621/) |

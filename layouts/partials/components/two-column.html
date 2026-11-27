@@ -3,7 +3,7 @@
   {{ if .enable }}
     <div class="row" style="display: flex; flex-wrap: wrap; margin: 0 -12px 8px;">
       <!-- Left Column -->
-      <div style="flex: 0 1 auto; width: 50%; padding: 0 12px; box-sizing: border-box; text-align: left;">
+      <div class="two-col-item" style="flex: 0 1 auto; width: 50%; padding: 0 12px; box-sizing: border-box; text-align: left;">
         <h2 class="mb-3" style="font-size: 24px; font-weight: 600; line-height: 1.2; margin: 0 0 16px 0; border-bottom: 2px solid #e5e5e5; padding-bottom: 8px;">{{ .left_column.title | markdownify }}</h2>
         <p class="mb-4" style="font-size: 16px; font-weight: 400; line-height: 1.6; margin: 0 0 16px 0;">{{ .left_column.content | markdownify }}</p>
         {{ with .left_column.button }}
@@ -17,7 +17,7 @@
       </div>
       
       <!-- Right Column -->
-      <div style="flex: 0 1 auto; width: 50%; padding: 0 12px; box-sizing: border-box; text-align: left;">
+      <div class="two-col-item" style="flex: 0 1 auto; width: 50%; padding: 0 12px; box-sizing: border-box; text-align: left;">
         <h2 class="mb-3" style="font-size: 24px; font-weight: 600; line-height: 1.2; margin: 0 0 16px 0; border-bottom: 2px solid #e5e5e5; padding-bottom: 8px;">{{ .right_column.title | markdownify }}</h2>
         <p class="mb-4" style="font-size: 16px; font-weight: 400; line-height: 1.6; margin: 0 0 16px 0;">{{ .right_column.content | markdownify }}</p>
         {{ with .right_column.button }}
@@ -32,3 +32,9 @@
     </div>
   {{ end }}
 {{ end }}
+<style>
+/* stack the two columns on phones */
+@media (max-width: 767.98px) {
+  .two-col-item { width: 100% !important; margin-bottom: 16px; }
+}
+</style>

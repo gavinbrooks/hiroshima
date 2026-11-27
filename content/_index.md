@@ -46,6 +46,6 @@ program_overview:
 contact_section:
   enable: true
   title: "Contact"
-  content: "For enquiries, please email us at info@vocab-at-hiroshima.org."
+  content: "For inquiries, please email us at info@vocab-at-hiroshima.org."
   email: ""
 ---

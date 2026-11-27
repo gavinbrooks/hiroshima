@@ -36,7 +36,7 @@ The three-day conference will include:
 - **Concurrent Paper Sessions**
 - **Poster Session**
 - **Workshop Sessions**
-- **Excursion and Conference Dinner**
+- **Excursion (optional, separate fee) and Conference Dinner**
 {{< /card_text >}}
 
 {{< card_text "Day 3 — September 17th" >}}
