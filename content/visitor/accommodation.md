@@ -15,23 +15,23 @@ banner:
     link: ""
 ---
 
-The following hotels are all within walking distance or a short tram ride of the International Conference Center Hiroshima, listed roughly from budget-friendly to premium. Walking times are approximate. We recommend booking well in advance for September.
+The following hotels are all within walking distance or a short tram ride of the International Conference Center Hiroshima, listed from budget-friendly to premium and, within each price range, from nearest to farthest. Walking times are approximate. We recommend booking well in advance for September.
 
 | Hotel | Price Guide | Walk to Venue |
 |---|---|---|
 | Hotel Livemax Hiroshima Peace Park Mae | Budget | ~10 min |
 | Hotel S-Plus Hiroshima Peace Park | Budget | ~10 min |
 | Hotel Mystays Hiroshima Peace Park | Mid-level | ~10 min |
-| Hotel Hokke Club Hiroshima | Mid-level | ~13 min |
 | Hotel Parkside Hiroshima Peace Park | Mid-level | ~10 min |
 | Daiwa Roynet Hotel Hiroshima | Mid-level | ~13 min |
-| Dormy Inn Hiroshima | Upper | ~12 min |
-| Mitsui Garden Hotel Hiroshima | Upper | ~15 min |
+| Hotel Hokke Club Hiroshima | Mid-level | ~13 min |
 | The Knot Hiroshima | Upper | ~10 min |
 | ANA Crowne Plaza Hiroshima by IHG | Upper | ~10 min |
+| Dormy Inn Hiroshima | Upper | ~12 min |
+| Mitsui Garden Hotel Hiroshima | Upper | ~15 min |
 | RIHGA Royal Hotel Hiroshima | Premium | ~18 min |
-| Hotel Granvia Hiroshima | Premium | ~45 min on foot (~15 min by tram) |
 | Hilton Hiroshima | Premium | ~25 min |
+| Hotel Granvia Hiroshima | Premium | ~45 min on foot (~15 min by tram) |
 
 **A note on cost.** Price guides are approximate and vary by season and room type:
 
